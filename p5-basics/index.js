@@ -7,7 +7,7 @@ setInterval(function () {
     y = Math.floor(Math.random() * 256);
     z = Math.floor(Math.random() * 256);
     random = Math.floor(Math.random() * 10);
-}, 1000);
+}, .1);
 //creates the canvas we are drawing on
 function setup() {
     createCanvas(400, 400);

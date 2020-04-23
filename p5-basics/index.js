@@ -7,7 +7,9 @@ function setup() {
 
 //sets the color
 function draw() {
-    background(100,100);
+    background(220,0,200);
     fill(255, 204, 0);
-    rect(100,50,10,10)
+    rectMode(CENTER);
+    rect(200,150,150,150)
+    line(0,50,300,400)
 }
